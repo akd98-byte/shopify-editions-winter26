@@ -27,7 +27,7 @@ This document summarizes the complete implementation of the Shopify Editions Win
 ## Architecture Overview
 
 ### Tech Stack Implemented
-1. **Next.js 14.2** - App Router with React Server Components
+1. **Next.js 15.5** - App Router with React Server Components
 2. **TypeScript 5.3** - Strict type checking
 3. **Tailwind CSS 3.4** - Utility-first styling with custom design system
 4. **GSAP 3.12** - Professional animations with ScrollTrigger
@@ -281,8 +281,8 @@ npm run start
 ### Bundle Analysis
 ```
 Route (app)                Size        First Load JS
-/ (main page)              212 kB      299 kB
-Shared chunks              87.3 kB     
+/ (main page)              204 kB      306 kB
+Shared chunks              102 kB     
 Total initial load         <200KB (gzipped) ✅
 ```
 

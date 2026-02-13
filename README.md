@@ -2,7 +2,7 @@
 
 A high-performance, production-ready marketing SPA showcasing the latest innovations from Shopify Editions Winter 2026. Built with Next.js 14, React Server Components, Tailwind CSS, GSAP animations, and Three.js WebGL effects.
 
-![Next.js](https://img.shields.io/badge/Next.js-14.1+-black?logo=next.js)
+![Next.js](https://img.shields.io/badge/Next.js-15.5+-black?logo=next.js)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3+-blue?logo=typescript)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4+-38B2AC?logo=tailwind-css)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -44,8 +44,8 @@ A high-performance, production-ready marketing SPA showcasing the latest innovat
 ### 🛠️ Tech Stack
 
 #### Core Framework
-- **Next.js 14.1+**: App Router with React Server Components
-- **React 18.2+**: Latest React features
+- **Next.js 15.5+**: App Router with React Server Components
+- **React 19.0+**: Latest React features
 - **TypeScript 5.3+**: Strict type checking
 
 #### Styling
