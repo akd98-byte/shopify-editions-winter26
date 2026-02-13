@@ -1,3 +1,5 @@
+import * as THREE from 'three';
+
 export function handleResize(
   renderer: THREE.WebGLRenderer,
   camera: THREE.Camera
@@ -8,8 +10,10 @@ export function handleResize(
   renderer.setSize(width, height);
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
 
-  if ('aspect' in camera) {
-    camera.aspect = width / height;
+  if (camera instanceof THREE.PerspectiveCamera || camera instanceof THREE.OrthographicCamera) {
+    if ('aspect' in camera) {
+      camera.aspect = width / height;
+    }
     camera.updateProjectionMatrix();
   }
 }

@@ -7,7 +7,6 @@ let searchData: SearchResult[] = [];
 export function initializeSearch(features: Feature[]) {
   searchIndex = new FlexSearch.Index({
     tokenize: 'forward',
-    threshold: 1,
     resolution: 3,
   });
 
