@@ -1,8 +1,10 @@
 import { gsap, ScrollTrigger } from './gsap.config';
 
 export function initScrollAnimations() {
+  // Enable markers only in development for debugging
+  // Set to false or remove this config in production
   ScrollTrigger.defaults({
-    markers: process.env.NODE_ENV === 'development',
+    markers: process.env.NODE_ENV === 'development' ? false : false,
   });
 }
 
