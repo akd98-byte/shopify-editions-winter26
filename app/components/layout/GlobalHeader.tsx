@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import { Button } from '../ui/Button';
 
 export function GlobalHeader() {
@@ -6,7 +7,7 @@ export function GlobalHeader() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-bg-primary/80 backdrop-blur-lg border-b border-border-subtle">
       <div className="max-w-container mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
         <div className="flex items-center gap-8">
-          <a href="/" className="flex items-center gap-3">
+          <Link href="/" className="flex items-center gap-3">
             <svg
               width="32"
               height="32"
@@ -24,7 +25,7 @@ export function GlobalHeader() {
             <span className="text-text-primary font-bold text-xl">
               Shopify Editions
             </span>
-          </a>
+          </Link>
         </div>
 
         <nav className="hidden md:flex items-center gap-6">
